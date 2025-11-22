@@ -4,7 +4,9 @@ const Jobs = () => {
   return (
    <>
    
-   <div>Jobs page</div>
+  <div className='flex justify-center items-center h-150'> 
+    <h1 className='text-7xl text-bold'>Job Page</h1>
+   </div>
    </>
   )
 }

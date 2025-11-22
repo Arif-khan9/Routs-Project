@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
    <>
-   <div> home page</div>
+   <div className='flex justify-center items-center h-150'> 
+    <h1 className='text-7xl text-bold'>Home Page</h1>
+   </div>
    </>
   )
 }
