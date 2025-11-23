@@ -11,9 +11,9 @@ import SinglePage from './Pages/SinglePage';
 
 import Navbar from './Pages/Navbar';
 import Contactform from './Components/Contactform';
-import Info from './components/Info';
-import Layout from './components/Layout/Layout';
-import NotFound from './components/NotFound';
+import Info from './Components/Info';
+import Layout from './Components/Layout/Layout';
+import NotFound from './Components/NotFound';
 
 const App = () => {
   return (
