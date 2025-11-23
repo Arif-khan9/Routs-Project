@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ContactForm = () => {
+const Contactform = () => {
   return (
    <>
     <div className='flex justify-center relative bottom-25  '>
@@ -18,4 +18,4 @@ const ContactForm = () => {
   )
 }
 
-export default ContactForm
+export default Contactform

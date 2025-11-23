@@ -10,7 +10,7 @@ import SinglePage from './Pages/SinglePage';
 
 
 import Navbar from './Pages/Navbar';
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/Contactform';
 import Info from './components/Info';
 import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound';
@@ -21,6 +21,7 @@ const App = () => {
       <Navbar />
 
       <Routes>
+        <Route path="*" element={<NotFound />} /> 
         <Route path="/" element={<Home />} />
         <Route path="products" element={<Products />} />
         <Route path="about" element={<About />} />
@@ -32,7 +33,7 @@ const App = () => {
           <Route path="info" element={<Info />} />
         </Route>
 
-        <Route path="*" element={<NotFound />} />
+        
       </Routes>
     </>
   );
