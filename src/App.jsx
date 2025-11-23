@@ -10,7 +10,7 @@ import SinglePage from './Pages/SinglePage';
 
 
 import Navbar from './Pages/Navbar';
-import ContactForm from './components/Contactform';
+import Contactform from './components/Contactform';
 import Info from './components/Info';
 import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound';
@@ -29,7 +29,7 @@ const App = () => {
         <Route path="jobsScond/singlePage/:id" element={<SinglePage />} />
 
         <Route path="contact" element={<Layout />}>
-          <Route path="contactForm" element={<ContactForm />} />
+          <Route path="contactForm" element={<Contactform />} />
           <Route path="info" element={<Info />} />
         </Route>
 
