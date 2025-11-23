@@ -11,7 +11,7 @@ const ContactForm = () => {
         <br />
         <textarea className='bg-gray-200 p-2 px-5 mt-2' placeholder='Message'></textarea>
         <br />
-        <button className='bg-gray-300 mt-2 px-6 py-2' type='submit'>Submit</button>
+        <button className='bg-gray-300 mt-2 px-6 py-2' type='submit'>Submit.</button>
       </form>
     </div>
    </>
