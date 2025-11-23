@@ -9,7 +9,7 @@ import JobsScond from './Pages/JobsScond';
 import SinglePage from './Pages/SinglePage';
 
 
-import Navbar from './components/Navbar';
+import Navbar from './Pages/Navbar';
 import ContactForm from './components/ContactForm';
 import Info from './components/Info';
 import Layout from './components/Layout/Layout';
