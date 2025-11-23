@@ -10,7 +10,7 @@ import SinglePage from './Pages/SinglePage';
 
 
 import Navbar from './Pages/Navbar';
-import Contactform from './components/Contactform';
+import Contactform from './Components/Contactform';
 import Info from './components/Info';
 import Layout from './components/Layout/Layout';
 import NotFound from './components/NotFound';
