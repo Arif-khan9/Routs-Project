@@ -1,24 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
+import { jobsArr } from '../assets/data';
 
 const JobsScond = () => {
 
-    const [fetchapi, setFetchapi] = useState([]);
+//     const [fetchapi, setFetchapi] = useState([]);
 
-const apiData = async () => {
-  try {
-    const res = await fetch("http://localhost:5000/jobs");
-    const data = await res.json();
-    setFetchapi(data);
-    console.log("data:", data);
-  } catch (error) {
-    console.log("Error fetching API:", error);
-  }
-};
+// const apiData = async () => {
+//   try {
+//     const res = await fetch("http://localhost:5000/jobs");
+//     const data = await res.json();
+//     setFetchapi(data);
+//     console.log("data:", data);
+//   } catch (error) {
+//     console.log("Error fetching API:", error);
+//   }
+// };
 
-useEffect(() => {
-  apiData();
-}, []);
+// useEffect(() => {
+//   apiData();
+// }, []);
 
   return (
    <>
@@ -29,7 +30,7 @@ useEffect(() => {
   </div>
   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mt-10 w-full max-w-5xl'>
     {
-      fetchapi.map((items, index) => {
+      jobsArr.map((items, index) => {
         return (
           <Link key={index} to={`singlePage/${items.id}`}>
             <div className="h-25 w-full bg-gray-300 p-4 rounded-xl hover:shadow-md transition">
